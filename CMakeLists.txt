@@ -18,7 +18,7 @@ include_directories(${raylib_SOURCE_DIR}/raylib/include)
 FetchContent_Declare(
         GnomeCSLib
         GIT_REPOSITORY "https://github.com/kvitkaalexandr/gnomecs.git"
-        GIT_TAG "7eb16e8963b9ccac0a6f3b70c46cb3a03c1ceaaf"
+        GIT_TAG "5563240db1cbeddce0b2ed9c2c620895339506bd"
         GIT_PROGRESS TRUE
 )
 FetchContent_MakeAvailable(GnomeCSLib)
